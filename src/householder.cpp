@@ -66,7 +66,7 @@ std::vector<double> HouseholderMethod(const std::vector<double>& matrix_, int si
     }
     for (int i = 0; i < size - 1; ++i) {
         std::vector<double> vector_s(size);
-        for (int j = 0; j < size + 1; ++j) {
+        for (int j = 0; j < size; ++j) {
             if (j < i) {
                 vector_s[j] = 0;
             } else {
