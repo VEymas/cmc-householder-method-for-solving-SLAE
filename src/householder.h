@@ -9,7 +9,7 @@ namespace {
 }
 
 //res m*k A m*n B n*k
-std::vector<double> MatrixMultiplication (const std::vector<double>& matrix1, 
+std::vector<double> MatrixMultiplication(const std::vector<double>& matrix1, 
                     const std::vector<double>& matrix2, int m, int n, int k);
 
 std::vector<double> MulMatrixByNumber(const std::vector<double>& matrix, double num);
